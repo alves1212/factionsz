@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css"> <!-- Novo CSS específico para o login -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8745/8745396.png" type="image/png">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/8818/8818897.png" alt="Logo" class="logo">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" id="usuario" required placeholder="Digite seu usuário">
+                </div>
+                <div class="input-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" required placeholder="Digite sua senha">
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="erro" class="erro"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Office Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8818/8818897.png" type="image/png"> 
+</head>
+<body>
+    <header>
+        <img src="https://th.bing.com/th/id/OIP.oaTKVeNPLECCxknTW3NHvQHaHa?rs=1&pid=ImgDetMain" alt="Ícone Home Office" class="site-icon"> 
+        <h1>Bem-vindo ao Ambiente de Home Office Sustentável</h1>
+        <button id="logout">Sair</button>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>Seu Painel</h2>
+            <p>Bem-vindo, <span id="username">Usuário</span>! Aqui você pode explorar dicas, recursos e ferramentas para tornar seu home office mais sustentável.</p>
+            
+            <!-- Resumo de Conquistas -->
+            <div class="conquistas">
+                <h3>Resumo de Conquistas</h3>
+                <p><strong>Medalhas:</strong> <span id="medalhas">0</span></p>
+                <p><strong>Pontos:</strong> <span id="pontos">0</span></p>
+            </div>
+
+            <!-- Progresso do Usuário -->
+            <div class="progresso">
+                <h3>Progresso no Home Office Sustentável</h3>
+                <p>Você já implementou <strong>0%</strong> das práticas sustentáveis em seu home office.</p>
+                <progress value="0" max="100"></progress>
+            </div>
+
+            <!-- Botão para iniciar o Quiz -->
+            <div class="quiz-button">
+                <h3>Teste seus conhecimentos!</h3>
+                <p>Participe do quiz e aprenda mais sobre como tornar seu home office sustentável.</p>
+                <button onclick="window.location.href='quiz.html'">Ir para o Quiz</button>
+            </div>
+
+            <!-- Recomendações de Conteúdo -->
+            <div class="recomendacoes">
+                <h3>Recomendações de Conteúdo</h3>
+                <p>Para ajudar a melhorar seu home office, recomendamos os seguintes cursos:</p>
+                <ul>
+                    <li><a href="https://www.udemy.com/course/productivity-tips/" target="_blank">Curso de Produtividade no Home Office - Udemy</a></li>
+                    <li><a href="https://www.coursera.org/courses" target="_blank">Gestão de Espaços Sustentáveis - Coursera</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Gamificação (Ajustado para Home Office) -->
+        <section class="gamificacao">
+            <h2>Gamificação</h2>
+            <p>Complete missões e desafios para ganhar pontos e medalhas!</p>
+            <ul>
+                <li><strong>Missão 1:</strong> Reciclar 5 itens durante a semana.</li>
+                <li><strong>Missão 2:</strong> Implementar uma rotina de desligamento de equipamentos ao final do dia.</li>
+            </ul>
+        </section>
+
+        <!-- Conteúdos Exclusivos -->
+        <section class="conteudos-exclusivos">
+            <h2>Conteúdos Exclusivos</h2>
+            <p>Explore materiais exclusivos para melhorar seu Home Office sustentável:</p>
+            <ul>
+                <li><a href="https://www.example.com/ebook1" target="_blank">E-book: Sustentabilidade no Home Office</a></li>
+                <li><a href="https://www.example.com/artigo1" target="_blank">Artigo: Ergonomia e Sustentabilidade no Trabalho</a></li>
+            </ul>
+        </section>
+
+        <!-- Sistema de Feedback -->
+        <section class="feedback">
+            <h2>Feedback e Suporte</h2>
+            <p>Deixe seu feedback sobre as dicas e desafios ou peça ajuda para melhorar seu home office.</p>
+            <textarea placeholder="Seu feedback ou dúvida..."></textarea>
+            <button>Enviar Feedback</button>
+        </section>
+
+        <!-- Calendário de Atividades -->
+        <section class="calendario">
+            <h2>Calendário de Atividades</h2>
+            <p>Veja os próximos eventos para otimizar seu home office:</p>
+            <ul>
+                <li><strong>Webinar:</strong> Como melhorar o home office com práticas sustentáveis - 15/03/2025</li>
+                <li><strong>Mentoria:</strong> Sessão de Feedback sobre Ergonomia no Home Office - 18/03/2025</li>
+                <li><strong>Workshop:</strong> Economia de Energia no Home Office - 25/03/2025</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Home Office Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

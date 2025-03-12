@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Home Office Sustentável</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz - Home Office Sustentável</h1>
+    </header>
+
+    <main class="quiz-container">
+        <div id="quiz">
+            <h2>Responda as perguntas e ganhe pontos!</h2>
+            <form id="quiz-form">
+                <!-- Perguntas -->
+                <div class="question" id="question-1">
+                    <p>1. Qual dessas opções ajuda a economizar energia no home office?</p>
+                    <label>
+                        <input type="radio" name="question-1" value="a">
+                        Desligar os aparelhos eletrônicos quando não estiverem em uso.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-1" value="b">
+                        Manter todos os aparelhos ligados para facilitar o acesso.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-1" value="c">
+                        Usar lâmpadas fluorescentes.
+                    </label>
+                    <p class="explanation hidden" id="explanation-1">Desligar os aparelhos eletrônicos quando não estiverem em uso pode reduzir o consumo de energia, promovendo um ambiente mais sustentável.</p>
+                </div>
+
+                <div class="question" id="question-2">
+                    <p>2. Qual das ações abaixo ajuda a manter um home office mais sustentável?</p>
+                    <label>
+                        <input type="radio" name="question-2" value="a">
+                        Imprimir todos os documentos necessários.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-2" value="b">
+                        Optar por documentos digitais sempre que possível.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-2" value="c">
+                        Usar papel reciclado apenas quando necessário.
+                    </label>
+                    <p class="explanation hidden" id="explanation-2">Optar por documentos digitais reduz a impressão de papel e o uso de recursos, tornando o home office mais sustentável e produtivo.</p>
+                </div>
+
+                <div class="question" id="question-3">
+                    <p>3. O que é recomendado para reduzir o desperdício de água em um home office?</p>
+                    <label>
+                        <input type="radio" name="question-3" value="a">
+                        Usar copos descartáveis.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-3" value="b">
+                        Fechar a torneira enquanto não estiver usando.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-3" value="c">
+                        Usar água quente para todas as atividades.
+                    </label>
+                    <p class="explanation hidden" id="explanation-3">Fechar a torneira enquanto não estiver usando ajuda a economizar água e reduzir o desperdício.</p>
+                </div>
+
+                <div class="question" id="question-4">
+                    <p>4. Qual tipo de iluminação é mais eficiente para um home office sustentável?</p>
+                    <label>
+                        <input type="radio" name="question-4" value="a">
+                        Lâmpadas incandescentes.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-4" value="b">
+                        Lâmpadas LED.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-4" value="c">
+                        Lâmpadas halógenas.
+                    </label>
+                    <p class="explanation hidden" id="explanation-4">As lâmpadas LED são mais eficientes e consomem menos energia do que as outras opções.</p>
+                </div>
+
+                <div class="question" id="question-5">
+                    <p>5. Qual a melhor maneira de organizar o lixo no home office?</p>
+                    <label>
+                        <input type="radio" name="question-5" value="a">
+                        Jogar tudo no mesmo lixo.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-5" value="b">
+                        Separar recicláveis e orgânicos.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-5" value="c">
+                        Descartar tudo sem separação.
+                    </label>
+                    <p class="explanation hidden" id="explanation-5">Separar recicláveis e orgânicos é a maneira mais eficiente para contribuir com a sustentabilidade.</p>
+                </div>
+
+                <div class="question" id="question-6">
+                    <p>6. O que pode ser feito para melhorar a qualidade do ar no home office?</p>
+                    <label>
+                        <input type="radio" name="question-6" value="a">
+                        Usar purificadores de ar.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-6" value="b">
+                        Deixar janelas fechadas o tempo todo.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-6" value="c">
+                        Colocar plantas no ambiente.
+                    </label>
+                    <p class="explanation hidden" id="explanation-6">Colocar plantas no ambiente ajuda a purificar o ar e aumentar o bem-estar.</p>
+                </div>
+
+                <div class="question" id="question-7">
+                    <p>7. Qual é a melhor maneira de reduzir o uso de papel no home office?</p>
+                    <label>
+                        <input type="radio" name="question-7" value="a">
+                        Usar papéis reciclados.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-7" value="b">
+                        Optar por documentos digitais.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-7" value="c">
+                        Imprimir tudo o que for necessário.
+                    </label>
+                    <p class="explanation hidden" id="explanation-7">Optar por documentos digitais reduz a necessidade de impressão e o desperdício de papel.</p>
+                </div>
+
+                <div class="question" id="question-8">
+                    <p>8. O que fazer com os equipamentos eletrônicos antigos no home office?</p>
+                    <label>
+                        <input type="radio" name="question-8" value="a">
+                        Jogá-los fora.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-8" value="b">
+                        Reutilizá-los sempre que possível.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-8" value="c">
+                        Reciclá-los corretamente.
+                    </label>
+                    <p class="explanation hidden" id="explanation-8">Reciclar corretamente equipamentos eletrônicos evita a poluição e desperdício de recursos.</p>
+                </div>
+
+                <div class="question" id="question-9">
+                    <p>9. Qual é a importância de um bom mobiliário ergonômico no home office?</p>
+                    <label>
+                        <input type="radio" name="question-9" value="a">
+                        Evita dores e melhora a postura.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-9" value="b">
+                        Não tem importância.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-9" value="c">
+                        Pode aumentar o desconforto.
+                    </label>
+                    <p class="explanation hidden" id="explanation-9">Um bom mobiliário ajuda a evitar dores e melhora a postura, promovendo bem-estar e produtividade.</p>
+                </div>
+
+                <div class="question" id="question-10">
+                    <p>10. O que fazer para manter uma boa organização no home office?</p>
+                    <label>
+                        <input type="radio" name="question-10" value="a">
+                        Deixar tudo espalhado.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-10" value="b">
+                        Organizar tudo em pastas e arquivos digitais.
+                    </label>
+                    <label>
+                        <input type="radio" name="question-10" value="c">
+                        Deixar documentos físicos em cima da mesa.
+                    </label>
+                    <p class="explanation hidden" id="explanation-10">Organizar tudo digitalmente ajuda a manter um espaço mais limpo e eficiente.</p>
+                </div>
+
+                <!-- Adicione as perguntas restantes seguindo o mesmo padrão -->
+
+                <button type="submit">Enviar Respostas</button>
+            </form>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Resultado</h2>
+            <p id="score">Você acertou <span id="correct-answers">0</span> de 20 perguntas!</p>
+            <div id="explanation-summary">
+                <h3>Como suas respostas ajudam a melhorar seu home office:</h3>
+                <p>Parabéns! Você fez ótimas escolhas para um home office sustentável. A seguir, veja como suas respostas contribuem para o ambiente de trabalho remoto:</p>
+                <ul>
+                    <li><strong>Economia de energia:</strong> Desligar aparelhos e optar por lâmpadas eficientes pode reduzir a pegada de carbono do seu home office.</li>
+                    <li><strong>Redução de papel:</strong> Usar documentos digitais não só economiza papel, mas também melhora a eficiência e organização no seu ambiente de trabalho.</li>
+                </ul>
+            </div>
+            <

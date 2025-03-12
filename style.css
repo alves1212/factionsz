@@ -1,0 +1,260 @@
+/* Definindo fontes e estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f4; /* Fundo mais suave para evocar o verde da natureza */
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilizando o botão de logout */
+button {
+    background: #5e5e5e; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: rgb(97, 255, 111);
+}
+
+.erro {
+    color: rgb(34, 252, 81);
+}
+
+header {
+    background: #f8f8f8; /* Verde calmo e sustentável */
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #388e3c;
+}
+
+header .site-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 0;
+    color: #868686;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    background: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    border-top: 3px solid #388e3c;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    ul li {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* Responsividade para dispositivos muito pequenos (como celulares de tela pequena) */
+@media (max-width: 480px) {
+    header .site-icon {
+        width: 40px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+/* Estilo adicional para o dashboard */
+.dashboard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.dashboard h2 {
+    color: #333;
+}
+
+.dashboard .conquistas, .dashboard .progresso, .dashboard .recomendacoes {
+    margin-bottom: 20px;
+}
+
+/* Estilo para exibição dinâmica de pontos e medalhas */
+.dashboard .conquistas span,
+.dashboard .progresso strong {
+    font-weight: bold;
+}
+
+.dashboard .conquistas p,
+.dashboard .progresso p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Gamificação */
+.gamificacao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gamificacao li {
+    margin: 10px 0;
+}
+
+/* Conteúdos Exclusivos */
+.conteudos-exclusivos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conteudos-exclusivos li {
+    margin: 10px 0;
+}
+
+/* Feedback */
+.feedback textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Calendário */
+.calendario ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.calendario li {
+    margin: 10px 0;
+}
+
+/* Botão para acessar o quiz */
+.quiz-button button {
+    background: #388e3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.quiz-button button:hover {
+    background: #4CAF50;
+}
+
+.quiz-button h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
